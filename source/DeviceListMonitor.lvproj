@@ -111,6 +111,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D327C82A-7FEE-4E4A-B909-F1FAF070D0EA}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8003937A-A49C-41F7-BA05-8C6108C461E1}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Assets/DeviceListMonitor.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -123,17 +124,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5DAE3AC1-EE2F-4C66-B33E-4A72415F6701}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceListMonitor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/DeviceListMonitor/DeviceListMonitor/DeviceListMonitor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DeviceListMonitor/DeviceListMonitor.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/DeviceListMonitor/DeviceListMonitor/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DeviceListMonitor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Assets/laptop-computer.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33245164-4880-44E7-BF1A-08584ADD9CB8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6AC94862-0F73-41CE-A09F-9629190C0436}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DeviceListMonitor_Main.vi</Property>
@@ -163,7 +164,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{0DE77ECD-54F2-40CC-9300-F546FF53D55A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">DeviceListMonitor</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Makkal-co</Property>
